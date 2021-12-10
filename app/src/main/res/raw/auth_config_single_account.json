@@ -1,0 +1,16 @@
+{
+  "client_id" : "459d490a-6253-4d24-a639-3b90d9e7728a",
+  "authorization_user_agent" : "DEFAULT",
+  "redirect_uri" : "msauth://eu.gitgud.azuresample/v2WGHfihpNFai5JKWZNzpCC2OUY%3D",
+  "broker_redirect_uri_registered" : true,
+  "account_mode" : "SINGLE",
+  "authorities" : [
+    {
+      "type": "AAD",
+      "audience": {
+        "type": "AzureADMyOrg",
+        "tenant_id": "2edb2cb2-4fbc-45f5-96a9-938a44da51fc"
+      }
+    }
+  ]
+}

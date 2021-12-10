@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- Important to note is that the ID's of the drawer items must match those
+         in the navigation graph in order for the default navigation to work -->
+
+
+    <group>
+        <item
+            android:id="@id/SettingsFragment"
+            android:icon="@drawable/ic_round_settings_24"
+            android:title="@string/settings" />
+
+        <item
+            android:id="@+id/LogoutAction"
+            android:icon="@drawable/ic_round_logout_24"
+            android:title="@string/logout" />
+    </group>
+
+</menu>
